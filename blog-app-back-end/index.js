@@ -8,6 +8,8 @@ dotenv.config();
 
 const app = express();
 
+app.use('/', Router)
+
 const PORT = 8000;
 
 app.listen(PORT, () => console.log(`Server is running successfully on PORT ${PORT}`));

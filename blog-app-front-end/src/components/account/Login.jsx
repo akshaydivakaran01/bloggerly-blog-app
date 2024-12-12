@@ -78,6 +78,11 @@ const Login = () => {
   const onInputChange = (e) => {
     setSignupValues({...signupValues, [e.target.name]: e.target.value });
   }
+
+  const signupUser = () => {
+    
+  }
+
   return (
       <Component>
         <Container>
